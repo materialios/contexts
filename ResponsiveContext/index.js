@@ -1,3 +1,7 @@
-import ResponsiveContext from './ResponsiveContext'
+import ResponsiveContext, { ResponsiveContextProvider } from './ResponsiveContext'
+
+export {
+  ResponsiveContextProvider
+}
 
 export default ResponsiveContext
