@@ -1,7 +1,9 @@
-import ResponsiveContext from './ResponsiveContext'
-import DrawerContext from './DrawerContext'
+import ResponsiveContext, { ResponsiveContextProvider } from './ResponsiveContext'
+import DrawerContext, { DrawerContextProvider } from './DrawerContext'
 
 export {
   ResponsiveContext,
-  DrawerContext
+  ResponsiveContextProvider,
+  DrawerContext,
+  DrawerContextProvider
 }
