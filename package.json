@@ -1,6 +1,6 @@
 {
   "name": "@materialios/contexts",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "ReactJs contexts for @materialios",
   "private": false,
   "main": "lib/index.js",
