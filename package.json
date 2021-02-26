@@ -1,10 +1,12 @@
 {
   "name": "@materialios/contexts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ReactJs contexts for @materialios",
-  "main": "index.js",
+  "private": false,
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"
   },
   "repository": {
     "type": "git",
@@ -20,15 +22,18 @@
     "url": "https://github.com/materialios/contexts/issues"
   },
   "homepage": "https://github.com/materialios/contexts#readme",
-  "private": false,
-  "dependencies": {
-    "@babel/preset-react": "^7.12.13",
-    "@materialios/hooks": "^0.1.1",
-    "react": "^17.0.1"
-  },
   "babel": {
     "presets": [
       "@babel/preset-react"
     ]
+  },
+  "peerDependencies": {
+    "react": "^16.x.x",
+    "@material/hooks": "^0.x.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-react": "^7.12.13"
   }
 }
