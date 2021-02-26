@@ -1,6 +1,6 @@
 {
   "name": "@materialios/contexts",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "ReactJs contexts for @materialios",
   "private": false,
   "main": "lib/index.js",
@@ -24,7 +24,12 @@
   "homepage": "https://github.com/materialios/contexts#readme",
   "babel": {
     "presets": [
-      "@babel/preset-react"
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
     ]
   },
   "peerDependencies": {
