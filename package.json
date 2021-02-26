@@ -1,0 +1,24 @@
+{
+  "name": "@materialios/contexts",
+  "version": "0.1.0",
+  "description": "ReactJs contexts for @materialios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/materialios/contexts.git"
+  },
+  "keywords": [
+    "materialios",
+    "contexts"
+  ],
+  "author": "Muhammad Rendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/materialios/contexts/issues"
+  },
+  "homepage": "https://github.com/materialios/contexts#readme",
+  "private": false
+}
