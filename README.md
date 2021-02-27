@@ -11,7 +11,7 @@ npm i @materialios/contexts
 ```
 
 ## Example
-```
+```c
 import { useContext } from 'react'
 import { ResponsiveContext, ResponsiveContextProvider } from '@materialios/contexts'
 
