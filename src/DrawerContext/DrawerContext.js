@@ -11,7 +11,7 @@ export const DrawerContextProvider = ({ children }) => {
   })
 
   return (
-    <DrawerContext.Provider value={[drawer, setDrawer]}>
+    <DrawerContext.Provider value={{ drawer, setDrawer }}>
       {children}
     </DrawerContext.Provider>
   )
